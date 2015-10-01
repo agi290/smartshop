@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/globalForeground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/project_addsite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="181dp"
+        android:background="@drawable/round"
+        android:textColor="@color/globalForeground"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" 
+        android:textSize="24sp"
+        android:text="@string/project_addsite_button" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/project_addsite_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="@string/project_sites_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/project_site_background"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignRight="@+id/project_addsite_button"
+        android:layout_alignEnd="@+id/project_addsite_button"
+        android:layout_alignStart="@+id/project_addsite_button"
+        android:layout_alignLeft="@+id/project_addsite_button"
+        android:layout_marginBottom="19dp"
+        android:contentDescription="@string/project_icon"
+        android:src="@drawable/shopbw" />
+
+</RelativeLayout>
